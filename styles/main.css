@@ -1,0 +1,90 @@
+/* this is a comment in CSS
+	it is multilined
+
+	also, it is different from HTML
+		because why not
+*/
+
+nav {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.nav-item {
+	padding: 20px;
+	margin: 5px;
+	border-radiuws: 5px;
+	border: 1px solid black;
+	background-color: black;
+	color: white;
+	font-weight: bolder;
+	text-decoration: none;
+
+	transition: all 0.5s;
+}
+
+.nav-item:hover {
+	color: black;
+	background-color: white;
+	border-color: white;
+}
+
+/* select the ONE thing that has ID title */
+body.LOL h1#title {}
+
+#title {
+	text-align: left;
+}
+
+
+
+h1 { /* h1 is the tagName selector */
+	text-align: center;
+}
+
+/*
+	selector {
+		rule: value;
+	}
+*/
+
+/* find everything with class profile*/
+.profile { /* the dot means search for class */
+	text-align: center;
+	font-size: 24px;
+	line-height: 28px;
+	font-family: Helvetica, sans-serif;
+	width: 40%;
+	margin: auto;
+	font-weight: lighter;
+}
+
+/* find everything with BOTH h3 AND .foobar */
+h3.foobar {
+	font-weight: lighter;
+}
+
+.foobar {
+	font-weight: normal;
+}
+
+li {
+	color: green;
+}
+
+.red-block {
+	color: red;
+}
+
+/* find every red-block then look INSIDE of those only to find lis*/
+.red-block li{
+	color: red;
+}
+
+p {
+	font-weight: bold;
+}
+
+
+
+
